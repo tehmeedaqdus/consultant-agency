@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>WS GROUP</title>
+  </head>
+
+  <body class="container mx-auto">
+    <header
+      class="min-h-screen bg-hero-pattern-desktop bg-cover bg-fixed bg-center bg-no-repeat"
+      id="home"
+    >
+      <nav
+        class="relative flex items-center justify-between py-6 px-6 md:px-12"
+      >
+        <!--  -->
+        <div class="">
+          <a href="index.html" class="text-6xl font-extrabold text-white">WS</a>
+        </div>
+        <!-- menu -->
+        <ul class="text-md hidden space-x-8 font-semibold text-white md:flex">
+          <li><a href="#home" class="hover:text-pink-600">HOME</a></li>
+          <li><a href="#services" class="hover:text-pink-600">SERVICES</a></li>
+          <li><a href="#stats" class="hover:text-pink-600">STATISTICS</a></li>
+          <li><a href="#about" class="hover:text-pink-600">ABOUT US</a></li>
+        </ul>
+
+        <!-- hamburger menu -->
+        <button
+          id="menu-btn"
+          class="hamburger block focus:outline-none md:hidden"
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+        <!-- mobile menu -->
+        <ul
+          class="absolute left-6 right-6 top-28 hidden flex-col items-center space-y-6 self-end bg-white py-8 font-bold drop-shadow-md sm:w-auto sm:self-center"
+          id="menu"
+        >
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="#stats">STATISTICS</a></li>
+          <li><a href="#about">ABOUT US</a></li>
+        </ul>
+      </nav>
+      <!-- hero-section -->
+      <div
+        class="flex flex-col justify-center py-48 px-12 text-center text-white md:w-10/12 md:max-w-2xl md:px-16 md:text-left lg:w-2/3"
+      >
+        <h1 class="text-5xl md:text-6xl">Discover The World Of Business</h1>
+        <p class="my-8 text-xl font-semibold">
+          Experience, accountability and innovation – all of which is reflected
+          in the quality of our results
+        </p>
+        <a
+          href="#"
+          class="mx-auto w-40 rounded-sm bg-pink-600 py-2 text-center text-lg font-semibold hover:bg-pink-800 md:mx-0"
+          >Learn More</a
+        >
+      </div>
+    </header>
+    <!-- Services -->
+
+    <section class="mt-6 p-8 text-center xs:p-12" id="services">
+      <h2 class="text-4xl capitalize text-pink-600">Our Services</h2>
+      <!-- line -->
+      <div class="my-4 mx-auto h-1 w-16 bg-pink-600"></div>
+      <p class="text-2xl text-gray-500 md:mx-auto md:max-w-3xl">
+        We Allow You To Start Without Having To Worry About Making A Mistake, As
+        We Use Our Outstanding Experience.
+      </p>
+      <!-- grid -->
+      <div
+        class="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-4 lg:grid-cols-4"
+      >
+        <!-- 1 -->
+        <div class="relative h-96">
+          <img
+            src="./images/slidebean-txoG5VLqsjM-unsplash.jpg"
+            alt=""
+            class="h-full w-full object-cover object-center"
+          />
+          <div class="absolute inset-0 bg-black bg-opacity-50">
+            <div class="absolute inset-x-0 bottom-0">
+              <h3 class="bg-black bg-opacity-80 p-4 px-6 text-lg text-white">
+                Investment planning & strategy
+              </h3>
+            </div>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="relative h-96">
+          <img
+            src="./images/priscilla-du-preez-nNMBa7Y1Ymk-unsplash.jpg"
+            alt=""
+            class="h-full w-full object-cover object-center"
+          />
+          <div class="absolute inset-0 bg-black bg-opacity-50">
+            <div class="absolute inset-x-0 bottom-0">
+              <h3 class="bg-black bg-opacity-80 p-4 text-lg text-white">
+                International Business Opportunities
+              </h3>
+            </div>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="relative h-96">
+          <img
+            src="./images/annie-spratt-MChSQHxGZrQ-unsplash.jpg"
+            alt=""
+            class="h-full w-full object-cover object-center"
+          />
+          <div class="absolute inset-0 bg-black bg-opacity-50">
+            <div class="absolute inset-x-0 bottom-0">
+              <h3 class="bg-black bg-opacity-80 p-4 text-lg text-white">
+                Strategic & commercial approach
+              </h3>
+            </div>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="relative h-96">
+          <img
+            src="./images/linkedin-sales-solutions-wS73LE0GnKs-unsplash.jpg"
+            alt=""
+            class="h-full w-full object-cover object-center"
+          />
+          <div class="absolute inset-0 bg-black bg-opacity-50">
+            <div class="absolute inset-x-0 bottom-0">
+              <h3 class="bg-black bg-opacity-80 p-4 text-lg text-white">
+                Simple business answers and solutions
+              </h3>
+            </div>
+          </div>
+        </div>
+        <!-- end grid -->
+      </div>
+    </section>
+
+    <!-- stats -->
+    <section id="stats" class="my-8">
+      <h2 class="text-center text-4xl capitalize text-pink-600">Statistics</h2>
+      <!-- line -->
+      <div class="my-4 mx-auto h-1 w-16 bg-pink-600"></div>
+      <div class="relative my-12 bg-attribution bg-cover bg-center py-24 px-12">
+        <div
+          class="grid grid-cols-1 gap-20 md:grid-cols-2 md:gap-28 lg:grid-cols-4 lg:gap-8"
+        >
+          <!-- 1 -->
+          <div class="space-y-4 text-center text-white">
+            <span class="text-4xl italic">17</span>
+            <h2 class="text-xl">Years Of Experience</h2>
+          </div>
+          <!-- 2 -->
+          <div class="space-y-4 text-center text-white">
+            <span class="text-4xl italic">1267</span>
+            <h2 class="text-xl">Satisfied Customers</h2>
+          </div>
+          <!-- 3 -->
+          <div class="space-y-4 text-center text-white">
+            <span class="text-4xl italic">278</span>
+            <h2 class="text-xl">Finished Projects</h2>
+          </div>
+          <!-- 4 -->
+          <div class="space-y-4 text-center text-white">
+            <span class="text-4xl italic">350</span>
+            <h2 class="text-xl">Employees Worldwide</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about us -->
+    <section class="mt-6 p-8 xs:p-12" id="about">
+      <h2 class="text-center text-4xl capitalize text-pink-600">About Us</h2>
+      <!-- line -->
+      <div class="my-4 mx-auto h-1 w-16 bg-pink-600"></div>
+      <!-- content -->
+      <div class="mt-12 flex flex-col gap-12 md:flex-row md:gap-6">
+        <!-- 1 -->
+        <div class="md:w-1/2 lg:w-1/3">
+          <img
+            src="./images/person.jpg"
+            alt=""
+            class="h-full w-full object-cover"
+          />
+        </div>
+        <!-- 2 -->
+        <div
+          class="flex flex-col justify-center px-8 md:w-1/2 lg:w-2/3 lg:px-16"
+        >
+          <h3 class="text-2xl font-semibold md:text-4xl">
+            Our Focus Enables Us To Provide Customized, Actionable
+            Recommendations That Draw.
+          </h3>
+          <p class="mt-6 text-lg font-semibold text-gray-500">
+            Our focus enables us to provide customized, actionable
+            recommendations that draw on robust problem framing, cutting-edge
+            methodologies, deep therapeutic area knowledge, extensive global
+            networks of health care stakeholders, and expert synthesis across
+            scientific, clinical, and business disciplines.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="bg-black bg-opacity-80 py-4">
+      <p
+        class="text-center text-xl font-semibold tracking-widest text-white hover:text-pink-600"
+      >
+        All Rights Reserved
+      </p>
+    </footer>
+    <script>
+      const btn = document.getElementById("menu-btn");
+      const nav = document.getElementById("menu");
+
+      btn.addEventListener("click", () => {
+        btn.classList.toggle("open");
+        nav.classList.toggle("flex");
+        nav.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>
